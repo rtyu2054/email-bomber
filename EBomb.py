@@ -9,7 +9,7 @@ from threading import Thread
 
 ps = ProxyScanIO()
 ua = UserAgent()
-email = ''
+email = ''a35821858@gmail.com
 thr = 0
 
 parser = ArgumentParser()
@@ -27,8 +27,8 @@ elif args.thr:
     url = input('Какой Email атаковать?: ')
 else:
     while not email or not thr:
-        email = input('Какой Email атаковать?: ')
-        thr = input('Сколько использовать потоков? (10): ')
+        email = input('a35821858@gmail.com: ')
+        thr = input('100 (10): ')
         if not thr:
             thr = 10
 
